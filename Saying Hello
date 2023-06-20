@@ -1,0 +1,39 @@
+"""
+noun =  name  //  greeting using name
+
+verb = prompts // prints
+
+Example Output
+What is your name? Brian
+Hello, Brian, nice to meet you!
+
+TDD
+
+1)
+Inputs: Jojo
+Expected result: Hello, Jojo, nice to meet you
+Actual result: Hello, Jojo, nice to meet you \\
+
+2)
+Inputs: Mariam
+Expected result: Hello, Mariam, nice to meet you
+Actual result: Hello, Marian, nice to meet you \\
+
+3)
+Inputs: 1234
+Expected result: Hello, 1234, nice to meet you
+Actual result: Hello, 1234, nice to meet you \\
+
+4)
+Inputs: @#$%
+Expected result: Hello, @#$%, nice to meet you
+Actual result: Hello, @#$%, nice to meet you \\
+"""
+
+#step 1: prompt, name
+
+name = input("What is your name? ")
+
+#step 2: >display< print, greeting using name
+
+print(f"Hello, {name}, nice to meet you")
